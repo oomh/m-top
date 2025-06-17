@@ -2,5 +2,5 @@ streamlit>=1.28.0
 pandas>=1.5.0
 plotly>=5.15.0
 tabula-py>=2.7.0
-millify>=0.1.1
 numpy>=1.24.0
+jpype1>=1.5.2
