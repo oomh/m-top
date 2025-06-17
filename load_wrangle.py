@@ -148,7 +148,7 @@ def clean_data(df):
     if df is None:
         print("❌ The DataFrame is empty after loading.")
         st.error(
-            "The DataFrame is empty after loading. Please check the PDF file., reload the page to try again."
+            "The DataFrame is empty after loading. Please check the PDF file, or the password provided then reload the page to try again."
         )
         sys.exit(1)
     else:
