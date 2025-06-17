@@ -1,0 +1,29 @@
+[theme]
+base="dark"
+primaryColor="#00338a"                  # Desaturated blue for highlights
+backgroundColor = "#F5F8FA"             # Very light blue/gray for main background
+secondaryBackgroundColor = "#E3EAF2"    # Slightly darker blue for widget backgrounds
+textColor = "#2C3E50"                   # Dark blue-gray for text
+codeBackgroundColor = "#D6E0ED"         # Muted blue for code blocks
+font = "sans serif"                     # Font family for the app
+
+[theme.sidebar]
+baseRadius = "full"                     # Fully rounded corners
+backgroundColor = "#F5F8FA"             # Sidebar background
+secondaryBackgroundColor = "#F5F8FA"    # Sidebar widget background
+textColor = "#2C3E50"                   # Sidebar text color
+
+[server]
+enableCORS = true                      # Disable CORS for API requests
+enableXsrfProtection = true             # Enable XSRF protection
+maxUploadSize = 200                     # Max upload size in MB
+port = 8501                             # Port to run the app
+
+[browser]
+gatherUsageStats = true                # Disable usage statistics
+serverAddress = "localhost"             # Server address
+serverPort = 8501                       # Browser port
+
+[runner]
+magicEnabled = true                     # Enable magic commands
+fastReruns = true                       # Enable fast re-runs

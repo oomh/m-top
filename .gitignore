@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+vendor/
+.vscode/
+blackbox/
+*.swp
+.Trashes
+.env
+tmp/
+temp/
+
