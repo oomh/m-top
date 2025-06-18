@@ -21,13 +21,13 @@ m-top/
 ```
 
 ## 🚀 Quick Start
-It's a Streamlit web app so use it at this URL: 
+It's a Streamlit web app so use it at this URL: https://m-pesalytics.streamlit.app/
 
 ## 🔧 Features
 
 ### Transaction Type Analysis
 
-- **Merchant Payments (Buy Goods)**: Spending at various merchants (Buy Goods) 
+- **Merchant Payments (Buy Goods)**: Spending at various merchants (Buy Goods)
 - **Pay-bill payments**: PayBill transactions breakdown
 - **Send Money**: Person-to-person money transfers analysis
 - **Receive Money**: Incoming money transfers from individuals and businesses, like banks.

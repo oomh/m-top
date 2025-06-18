@@ -14,13 +14,13 @@ secondaryBackgroundColor = "#F5F8FA"    # Sidebar widget background
 textColor = "#2C3E50"                   # Sidebar text color
 
 [server]
-enableCORS = true                      # Disable CORS for API requests
+enableCORS = true                       # Disable CORS for API requests
 enableXsrfProtection = true             # Enable XSRF protection
 maxUploadSize = 200                     # Max upload size in MB
 port = 8501                             # Port to run the app
 
 [browser]
-gatherUsageStats = true                # Disable usage statistics
+gatherUsageStats = false                # Disable usage statistics
 serverAddress = "localhost"             # Server address
 serverPort = 8501                       # Browser port
 
