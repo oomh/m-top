@@ -70,6 +70,7 @@ def paybill_box(
         xaxis_title="",
         yaxis_title="",
         xaxis=dict(showticklabels=False),
+        dragmode = False,
         height=((nlargest - 1) * 100),  # Dynamic height based on number of merchants
     )
     toppaybill_fig.update_traces(

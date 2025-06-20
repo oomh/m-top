@@ -104,6 +104,7 @@ def customer_transfer_box(filtered_df, nlargest, color, template):
         xaxis_title="",
         yaxis_title="",
         xaxis=dict(showticklabels=False),
+        dragmode = False,
         height=((nlargest - 1) * 100),  # Dynamic height based on number of merchants
         )
 

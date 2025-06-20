@@ -52,6 +52,7 @@ def airtime_box(filtered_df, nlargest, color, template):
         title="Airtime Purchases",
         hover_data=["count"],  # Show purchase count in hover tooltip
     ).update_layout(
+        dragmode = False,
         height=500  # Fixed height since pie chart doesn't need dynamic sizing
     )
 

@@ -74,6 +74,7 @@ def merchant_box(
     ).update_layout(
         xaxis_title="",
         yaxis_title="",
+        dragmode = False,
         xaxis=dict(showticklabels=False),
         height=((nlargest - 1) * 100),  # Dynamic height based on number of merchants
     )
